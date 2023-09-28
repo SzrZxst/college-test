@@ -68,6 +68,34 @@ export default (content) => {
 
     // console.log(`цена за отряд самых толстых: ${price[fattestUnit]}`);
     // console.log(`цена за отряд самых худых: ${}`);
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // export default (content) => {
+    //     const make_norm_info = content.split('\n').slice(1).filter((el) => el)
+    //     const new_arr = make_norm_info.map((el) => el.split(','))
+    //     const ppupa = (arr) => {
+    //     return {parik:arr[0], price:arr[1], gender:arr[2], years:Number(arr[3]), mmr:Number(arr[4])}
+    //     }
+    //     const parik = new_arr.map((el) => ppupa(el))
+            
+    //     //1
+    //     const count = parik.length
+    //     console.log(Count: ${count});
+        
+    //     //2
+    //     const names = parik.map((el) => el.parik).sort().join(', ')
+    //     console.log(Barbershops: ${names})
+        
+    //     //3
+    //     const rating = parik.map((el) => el.mmr)
+    //     const ratingMax = Math.max(...rating)
+    //     const ratingMin = Math.min(...rating)
+    //     console.log(Ratings: Min: ${ratingMin} Max: ${ratingMax})
+        
+    //     //4
+    //     const oldest = parik.map((el) => el.years)
+    //     const oldest2 = Math.max(...oldest)
+    //     const oldest1 = parik.filter((el) => el.years === oldest2)
+    //     console.log(Oldest barbershop: ${oldest1[0].parik})
+    //     }
 
 }
